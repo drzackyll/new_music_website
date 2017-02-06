@@ -1,20 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Music extends Component {
-  render () {
-    function clickHandler() {
-      console.log("nothing")
-    }
-    return (
-      <div>
-        <iframe className="four columns" onClick={clickHandler} src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A2FZmXJunK6q8gfNWsiBJNe" width="300" height="380" frameBorder="0" allowTransparency="true"></iframe>
-        <p className="eight columns">Lyrics</p>
-        <div onClick={console.log("fuck you")}>
-          <p>Bless Your Heart <br />
+const Music = () => {
+  return (
+    <div className="row">
+      <iframe className="four columns offset-by-two" src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A2FZmXJunK6q8gfNWsiBJNe" width="300" height="380" frameBorder="0" allowTransparency="true"></iframe>
+      <div className="six columns lyrics">
+        <p><h4>Lyrics</h4></p>
+        <div>
+          <h5>Bless Your Heart</h5><br />
           You’ve got the sun there in your eyes<br />
           It’s only silhouettes you spy<br />
           Oh child bless your heart<br />
-          Oh child bless your heart<br /></p>
+          Oh child bless your heart<br />
           <br />
           You lost the thread somewhere I think<br />
           You supposed to pull me from the brink<br />
@@ -25,7 +22,7 @@ class Music extends Component {
           Time to close the gates<br />
           Run on home<br />
           Skip off like a stone<br />
-
+          <br />
           You got faith in something well ain’t you sweet<br />
           You bring the dirt in from the street<br />
           Oh child bless your heart<br />
@@ -36,9 +33,9 @@ class Music extends Component {
           Oh child bless your heart<br />
           Oh child bless your heart<br />
           <br />
-          </div>
-          <div>
-          Drive On Back To Me<br />
+        </div>
+        <div>
+          <h5>Drive On Back To Me</h5><br />
           Get in your car<br />
           And drive on back to me<br />
           Get in your car<br />
@@ -59,7 +56,9 @@ class Music extends Component {
           Get in your car<br />
           Drive on back to me<br />
           <br />
-          Dead Horse Bay<br />
+        </div>
+        <div>
+          <h5>Dead Horse Bay</h5><br />
           You can try to bottle it up<br />
           You can try to put a cap on all that junk<br />
           You can try to hide the past<br />
@@ -83,7 +82,9 @@ class Music extends Component {
           What’s that pushed here by the wind?<br />
           Another bottle with a message folded in<br />
           <br />
-          Forethought<br />
+          </ div>
+          <div>
+          <h5>Forethought</h5><br />
           You just wanted to be loved<br />
           You decided to take what you took from above<br />
           They were blind to what they lacked<br />
@@ -100,11 +101,11 @@ class Music extends Component {
           It was mine, the thing you took<br />
           I’ll teach them to blame the girl<br />
           Unleashed the bad upon the world<br />
-          I know<br />
+          I know
         </div>
       </div>
-    )
-  }
+    </div>
+  )
 }
 
 export default Music

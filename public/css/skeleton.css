@@ -131,6 +131,9 @@ body {
   font-weight: 400;
   font-family: 'Special Elite', cursive;
   color: white; }
+footer {
+  text-align: center;
+}
 
 
 /* Typography
@@ -158,6 +161,10 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 p {
   margin-top: 0; }
+
+.lyrics {
+  text-align: left;
+}
 
 
 /* Links
@@ -384,6 +391,19 @@ hr {
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
 
+.spotify {
+  position: fixed;
+}
+
+.nav-bar-resize {
+  max-width: 200%;
+  max-height: 200%;
+}
+
+.picture-resize {
+  max-width: 70%;
+  max-height: 70%
+}
 
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -405,7 +425,6 @@ near the relevant code. For example, if you wanted to change the styles for butt
 on small devices, paste the mobile query code up in the buttons section and style it
 there.
 */
-
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
