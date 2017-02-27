@@ -1,9 +1,17 @@
-import React, { Component } from "react"
+import React from "react"
 import { slick } from "slick-carousel"
 import { Slider } from "react-slick"
 import $ from "jquery"
 
-class Photos extends Component {
+// const settings = {
+//   dots: true,
+//   infinite: true,
+//   speed: 300,
+//   slidesToShow: 4,
+//   slidesToScroll: 4
+// };
+
+const Photos = () => {
 
   // $(document).ready(function(){
   //   $('.responsive').slick({
@@ -39,31 +47,25 @@ class Photos extends Component {
   //     ]
   //   })
   // })
-  function () {
-    var settings = {
-      dots: true,
-      infinite: true,
-      speed: 300,
-      slidesToShow: 4,
-      slidesToScroll: 4
-    };
-  }
-  render () {
 
-      return (
-        <Slider {...settings}>
-        <div><img src={require("../../public/images/photos/IMG_2738.jpg")} className="picture-resize" alt="work!" /></div>
-        <div><img src={require("../../public/images/photos/IMG_2747.jpg")} className="picture-resize" alt="work!" /></div>
-        <div><img src={require("../../public/images/photos/IMG_2758.jpg")} className="picture-resize" alt="work!" /></div>
-        <div><img src={require("../../public/images/photos/IMG_2773.jpg")} className="picture-resize" alt="work!" /></div>
-        <div><img src={require("../../public/images/photos/IMG_2786.jpg")} className="picture-resize" alt="work!" /></div>
-        <div><img src={require("../../public/images/photos/IMG_2821.jpg")} className="picture-resize" alt="work!" /></div>
-        <div><img src={require("../../public/images/photos/IMG_2830.jpg")} className="picture-resize" alt="work!" /></div>
-        <div><img src={require("../../public/images/photos/IMG_2839.jpg")} className="picture-resize" alt="work!" /></div>
-        <div><img src={require("../../public/images/photos/IMG_2866.jpg")} className="picture-resize" alt="work!" /></div>
-        </Slider>
-      )
-  }
+
+  // render() {
+
+    return (
+      <div>
+      <div><img src={require("../../public/images/photos/IMG_2738.jpg")} className="picture-resize" alt="work!" /></div>
+      <div><img src={require("../../public/images/photos/IMG_2747.jpg")} className="picture-resize" alt="work!" /></div>
+      <div><img src={require("../../public/images/photos/IMG_2758.jpg")} className="picture-resize" alt="work!" /></div>
+      <div><img src={require("../../public/images/photos/IMG_2773.jpg")} className="picture-resize" alt="work!" /></div>
+      <div><img src={require("../../public/images/photos/IMG_2786.jpg")} className="picture-resize" alt="work!" /></div>
+      <div><img src={require("../../public/images/photos/IMG_2821.jpg")} className="picture-resize" alt="work!" /></div>
+      <div><img src={require("../../public/images/photos/IMG_2830.jpg")} className="picture-resize" alt="work!" /></div>
+      <div><img src={require("../../public/images/photos/IMG_2839.jpg")} className="picture-resize" alt="work!" /></div>
+      <div><img src={require("../../public/images/photos/IMG_2866.jpg")} className="picture-resize" alt="work!" /></div>
+      </div>
+    )
+  // }
 }
+
 
 export default Photos
