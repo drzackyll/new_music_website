@@ -396,8 +396,7 @@ hr {
 }
 
 .nav-bar-resize {
-  max-width: 200%;
-  max-height: 200%;
+  max-height: 30px;
 }
 
 .picture-resize {
