@@ -9,7 +9,7 @@ const Landing = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="ten columns offset-by-one">
+        <div>
           <img src={require("../../public/images/photos/forethought.jpg")} className="picture-resize" alt="Forethougt EP" /><br />
           Checkout Zack Adams debut EP, <i>Forethought</i> now on the following platforms: <br />
           <a href="https://itunes.apple.com/us/album/forethought-ep/id1103053880?app=itunes"><img src={require("../../public/images/Get_it_on_iTunes_Badge_US_1114.svg")} alt="Get it on iTunes"/></a>
