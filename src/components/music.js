@@ -3,10 +3,10 @@ import React from 'react';
 const Music = () => {
   return (
     <div className="row">
-      <iframe className="four columns offset-by-two" src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A2FZmXJunK6q8gfNWsiBJNe" width="300" height="380" frameBorder="0" allowTransparency="true"></iframe>
-      <div className="six columns lyrics">
-        <div style={{color: "rgb(150, 146, 132)"}}>
-          <h5 style={{color: "rgb(255, 255, 255)"}}>Bless Your Heart</h5>
+      <iframe className="col-sm-4 col-sm-offset-2" src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A2FZmXJunK6q8gfNWsiBJNe" width="300" height="380" frameBorder="0" allowTransparency="true"></iframe>
+      <div className="col-sm-6 lyrics">
+        <div>
+          <h5 className="song-title">Bless Your Heart</h5>
           You’ve got the sun there in your eyes<br />
           It’s only silhouettes you spy<br />
           Oh child bless your heart<br />
@@ -33,8 +33,8 @@ const Music = () => {
           Oh child bless your heart<br />
           <br />
         </div>
-        <div style={{color: "rgb(150, 146, 132)"}}>
-          <h5 style={{color: "rgb(255, 255, 255)"}}>Drive On Back To Me</h5>
+        <div>
+          <h5 className="song-title">Drive On Back To Me</h5>
           Get in your car<br />
           And drive on back to me<br />
           Get in your car<br />
@@ -56,8 +56,8 @@ const Music = () => {
           Drive on back to me<br />
           <br />
         </div>
-        <div style={{color: "rgb(150, 146, 132)"}}>
-          <h5 style={{color: "rgb(255, 255, 255)"}}>Dead Horse Bay</h5>
+        <div>
+          <h5 className="song-title">Dead Horse Bay</h5>
           You can try to bottle it up<br />
           You can try to put a cap on all that junk<br />
           You can try to hide the past<br />
@@ -82,8 +82,8 @@ const Music = () => {
           Another bottle with a message folded in<br />
           <br />
           </ div>
-          <div style={{color: "rgb(150, 146, 132)"}}>
-          <h5 style={{color: "rgb(255, 255, 255)"}}>Forethought</h5>
+          <div>
+          <h5 className="song-title">Forethought</h5>
           You just wanted to be loved<br />
           You decided to take what you took from above<br />
           They were blind to what they lacked<br />

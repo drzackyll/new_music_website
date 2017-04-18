@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div className="container">
       <div className="row">
-        <img className="six columns" src={require("../../public/images/photos/thumb_IMG_2622_1024.jpg")} alt="Zack Adams"/>
-        <div className="lyrics six columns">
+        <img className="col-sm-6" src={require("../../public/images/photos/thumb_IMG_2622_1024.jpg")} alt="Zack Adams"/>
+        <div className="lyrics col-sm-6">
           Zack Adams is a songwriter and singer living in Brooklyn, New York. He was
           born in Clinton, New York, and raised in North Carolina and Kentucky. In his
           early years, Adams was encouraged to explore music: first as a piano student,
