@@ -3,15 +3,27 @@ import { Link } from 'react-router'
 
 const NavBar = () => {
   return (
-    <div className="container">
-      <div className="row">
-        <div className="col-sm-1 col-sm-offset-7" style={{textAlign: "center"}}><Link to="/">home</Link></div>
-        <div className="col-sm-1" style={{textAlign: "center"}}><Link to="/music">music</Link></div>
-        <div className="col-sm-1" style={{textAlign: "center"}}><Link to="/photos">photos</Link></div>
-        <div className="col-sm-1" style={{textAlign: "center"}}><Link to="/about">about</Link></div>
-        <div className="col-sm-1" style={{textAlign: "center"}}><Link to="/contact">contact</Link></div>
+    <nav className="">
+      <div className="container-fluid">
+        <div className="navbar-header">
+            <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+            </button>
+            <a className="navbar-brand" href="/">zack adams</a>
+          </div>
+        <div className="collapse navbar-collapse" id="myNavbar">
+          <div style={{textAlign: "center"}} className="nav navbar-nav navbar-right">
+            <Link to="/">home</Link> |
+            <Link to="/music">music</Link> |
+            <Link to="/photos">photos</Link> |
+            <Link to="/about">about</Link> |
+            <Link to="/contact">contact</Link>
+          </div>
+        </div>
       </div>
-    </div>
+    </nav>
   )
 }
 

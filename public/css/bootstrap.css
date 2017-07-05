@@ -1084,7 +1084,8 @@ html {
 body {
   font-family: "Special Elite", Helvetica, Arial, sans-serif;
   background-image: url("../images/zabg.png");
-  background-color: rgb(35, 46, 38);
+  background-color: rgb(33, 46, 48);
+  text-align: left;
   background-repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed;
@@ -6775,9 +6776,8 @@ hr {
   max-height: 30px;
 }
 
-.picture-resize {
-  max-width: 70%;
-  max-height: 70%
+#album-cover {
+  width: 100%;
 }
 
 .lyrics {
@@ -6787,4 +6787,10 @@ hr {
 
 .song-title {
   color: rgb(255, 255, 255);
+}
+
+.navbar-header .navbar-toggle .icon-bar {
+  color: white;
+  background-color: white;
+  border-color: white;
 }
