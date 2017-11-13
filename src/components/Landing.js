@@ -13,7 +13,7 @@ const Landing = () => {
         <form action="//zackadamsmusic.us12.list-manage.com/subscribe/post?u=91746c573288b6940df0bcaeb&amp;id=4ce9e393b8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
             <div id="mc_embed_signup_scroll">
         	<label style={{color: "rgb(150, 146, 132)"}} htmlFor="mce-EMAIL">Sign up to get updates from me</label>
-        	<input type="email" value="" name="EMAIL" className="email" id="mce-EMAIL" placeholder="email address" required />
+        	<input type="email" name="EMAIL" className="email" id="mce-EMAIL" placeholder="email address" required />
             <div style={{position: "absolute", left: "-5000px"}} aria-hidden="true"><input type="text" name="b_91746c573288b6940df0bcaeb_4ce9e393b8" tabIndex="-1" value="" /></div>
             <div className="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button" /></div>
             </div>
