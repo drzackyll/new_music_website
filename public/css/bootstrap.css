@@ -1082,9 +1082,9 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Special Elite", Helvetica, Arial, sans-serif;
-  background-image: url("../images/zabg.png");
-  background-color: rgb(33, 46, 48);
+  font-family: font-family: 'Julius Sans One', sans-serif;
+  /* background-image: url("../images/zabg.png"); */
+  background-color: rgb(3, 5, 14);
   text-align: left;
   background-repeat: no-repeat;
   background-position: right top;
@@ -6777,16 +6777,21 @@ hr {
 }
 
 #album-cover {
+  padding-top: 10px;
   width: 100%;
 }
 
 .lyrics {
   text-align: left;
-  color: rgb(150, 146, 132);
+  /* color: rgb(32, 102, 151); */
+}
+
+.title {
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 .song-title {
-  color: rgb(255, 255, 255);
+  color: rgb(134, 137, 119) !important;
 }
 
 .navbar-header .navbar-toggle .icon-bar {

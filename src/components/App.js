@@ -1,10 +1,10 @@
 import React from 'react'
-import NavBar from './Navbar'
+// import NavBar from './Navbar'
 
 function App(props) {
   return (
     <div className="App">
-      <NavBar />
+      {/* <NavBar /> */}
       <div className="container">
         {props.children}
       </div>

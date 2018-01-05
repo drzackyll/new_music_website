@@ -7,10 +7,11 @@ import About from './components/About'
 import Photos from './components/Photos'
 import Landing from './components/Landing'
 import Videos from './components/Videos'
+import Album from './components/Album'
 
 const Routes = (
   <Route path="/" component={App}>
-    <IndexRoute component={Landing} />
+    <IndexRoute component={Album} />
     <Route path="/music" component={Music} />
     <Route path="/contact" component={Contact} />
     <Route path="/about" component={About} />
